@@ -1,0 +1,17 @@
+/**Fonts**/
+/**Human fonts are the sole property of Best Buy**/
+@font-face {
+    font-family: 'HumanRegular';
+    src: url('"https://www.bestbuy.ca/BBYHumanFontfiles/HumanBBY-55Regular-Web.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'HumanMedium';
+    src: url('https://www.bestbuy.ca/BBYHumanFontfiles/Human-BBY-Web-65-Medium.woff2') format('woff2');
+}
+body {
+    background-color: darkgrey;
+    font-family: "HumanRegular", sans-serif;
+}
+strong {
+    font-family: "HumanMedium", sans-serif;
+}
